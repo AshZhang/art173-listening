@@ -1,0 +1,60 @@
+.keypad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 75vh;
+    top: 5vh;
+    left: 5vw;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.button {
+    background-color: #abd4d0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 25px 25px;
+    color: #344d4a;
+}
+
+.button-text {
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    bottom: 25%;
+}
+
+.button:active {
+    background-color: #76a6a1;
+}
+
+.hang-up {
+    position: absolute;
+    bottom: 8%;
+    left: 258px;
+    width: auto;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    font-family: 'Varela Round';
+}
+
+.number {
+    font-size: 3em;
+    position: absolute;
+    left: 600px;
+    top: 30px;
+}
+
+.stock-photo{
+    max-height: 50vh;
+    width: auto;
+}
