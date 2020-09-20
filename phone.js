@@ -16,8 +16,11 @@ const photos = [
     "https://previews.123rf.com/images/auremar/auremar1212/auremar121201309/16808075-businessman-taking-a-bad-phone-call.jpg",
     "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX3438687.jpg"
 ]
+<<<<<<< HEAD
 let lastPhotoId = -1;
 let lastVmId = -1;
+=======
+>>>>>>> 85e211259bcc2464eb1ba9b040560b7d9fd39083
 // const ringSound = new Howl({ src: `${TONE_PATH}dial.mp3` });
 let curSound = undefined;
 let dialNumber = ""
